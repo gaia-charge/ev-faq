@@ -3,19 +3,11 @@
 python3 -m http.server --directory build &
 PID=${!}
 
-wkhtmltopdf \
-    --enable-local-file-access \
-    --orientation Landscape \
-    --page-width 210mm \
-    --page-height 297mm \
-    --dpi 300 \
-    --margin-bottom 0 \
-    --margin-left 0 \
-    --margin-right 0 \
-    --margin-top 0 \
-    --disable-smart-shrinking \
-    --background \
+# Generate the PDF
+electron-pdf \
+    --landscape \
     http://localhost:8000 \
     build/index.pdf
 
+# Kill the HTTP server
 kill -9 ${PID}
