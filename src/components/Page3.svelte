@@ -1,0 +1,9 @@
+<div>
+	<h1>Page 3</h1>
+</div>
+
+<style>
+	div {
+		background-color: blue;
+	}
+</style>
