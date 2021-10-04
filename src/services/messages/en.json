@@ -1,0 +1,78 @@
+{
+  "title": "Common questions about the electric vehicles",
+  "subtitle": "Answered by Gaia Green Tech",
+  "range": {
+    "title": "What's the range of an EV?",
+    "lead": "More than {percent}% of new EVs have a range of at least {range}km",
+    "tick": "{percent}% of cars has {range}km range"
+  },
+  "charge-frequency": {
+    "title": "How often do I need to charge it then?",
+    "lead": "On average, you would need to charge it about every {period}"
+  },
+  "charge-duration": {
+    "title": "How long does it take to charge?",
+    "lead": "This depends on a model of the car and the charger's output but here are example charging times for VW ID.3 Pro",
+    "charging-point": "Charging point",
+    "power": "Power",
+    "time-to-charge": "Time to charge",
+    "rate-of-charge": "Rate of charge"
+  },
+  "cost": {
+    "title": "How much does it cost to run?",
+    "lead": "Compared to gasoline and diesel cars, EV's are much cheaper to run",
+    "gasoline": "VW Golf gasoline",
+    "diesel": "VW Golf diesel",
+    "public-charging": "VW ID.3 public charging",
+    "home-charging": "VW ID.3 home charging",
+    "free-charging": "VW ID.3 free and solar energy",
+    "consumption-per-100km": "Consumption per 100km",
+    "cost-per-100km": "Cost per 100km",
+    "annual-savings": "Annual savings"
+  },
+  "advantages": {
+    "title": "What are things only EV's can do?",
+    "lead": "There are some technical advantages of EV's that simply can't be matched by petrol or diesel cars",
+    "torque": {
+      "title": "Instant torque",
+      "lead": "The electric motor delivers the acceleration instantly, making you first on any stop light"
+    },
+    "ac": {
+      "title": "Scheduling the AC",
+      "lead": "EVs allow you to schedule warming up or cooling of the car remotely so you always enter the car with the temperature you like"
+    },
+    "quiet": {
+      "title": "Incredibly quiet",
+      "lead": "EVs don't disturb neighbours, they won't wake up babies and even at highway speeds you can have a conversation with your regular voice"
+    },
+    "pollution": {
+      "title": "Zero pollution",
+      "lead": "If you're ecology conscious, this one is for you. No tailpipe, no emissions. Even including the pollution from the dirtiest electricity sources, EVs still outperform petrol/diesel cars"
+    },
+    "benefits": {
+      "title": "Additional benefits",
+      "lead": "In some countries/regions, EVs have additional benefits like free parking, ability to use bus lanes, enter congestion zones without a charge and most chargers in supermarkets and shopping centres are located very close to the entrance"
+    }
+  },
+  "battery": {
+    "title": "How long does the battery last?",
+    "lead": "Most manufacturers guarantee at least <strong>{percent}% capacity after {mileage}km</strong>",
+    "lead2": "and according to study by Nissan, the <strong>batteries will outlast the vehicle itself by 10-12 years</strong>",
+    "lead3": "After that time the batteries can be reused as energy storage in houses and after that up to <strong>{percent}% of materials in batteries can be recycled</strong>",
+    "lifespan": {
+      "car": "<strong>{percent}%</strong> after {mileage}km",
+      "home": "<strong>{years}</strong> years after the car",
+      "recycle": "<strong>{percent}%</strong> recyclable"
+    }
+  },
+  "charging-alternatives": {
+    "title": "I have a shared garage or park off the street. Can I still charge my car?",
+    "lead": "The rules depend on a country but usually you're able to install a home charger in a shared garage, as long as it has a separate meter from the communal one",
+    "lead2": "The cost of the installation is on you, but many car manufacturers include a wall charger as a free perk. <strong>Cost of a home charger is around {price}€</strong> plus installation",
+    "lead3": "If you don't have a garage, some cities offer off the street charging, but even without it, you should be able to charge the car enough, just by using the public chargers during your daily errands."
+  },
+  "contact": {
+    "title": "Contact us!",
+    "lead": "See all the footnotes and the up-to-date version of this ﬂyer at"
+  }
+}

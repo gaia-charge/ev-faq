@@ -8,8 +8,8 @@
 </script>
 
 <div class="side" id="side-a">
-	<Page6 />
 	<Page5 />
+	<Page6 />
 	<Page1 />
 </div>
 <div class="side" id="side-b">
