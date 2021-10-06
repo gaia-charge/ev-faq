@@ -1,5 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 # Start an HTTP server
+set -o xtrace
 python3 -m http.server --directory build &
 PID=${!}
 
@@ -10,7 +11,7 @@ electron-pdf \
     --marginsType 1 \
     --outputWait 5000 \
     http://localhost:8000 \
-    build/index.pdf
+    build/ev-faq-"${VITE_LANGUAGE}".pdf
 
 # Kill the HTTP server
 kill -9 ${PID}

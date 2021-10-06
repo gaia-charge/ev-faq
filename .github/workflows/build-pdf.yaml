@@ -1,0 +1,36 @@
+name: Building PDF
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        language:
+          - en
+          - es
+          - pl
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Build PDF
+      run: |
+        npm install
+        /usr/bin/Xvfb $DISPLAY -ac -screen 0 1920x1280x24 &
+        sleep 1
+        npm run pdf:build
+        ls -lha
+        ls -lha build
+      env:
+        VITE_LANGUAGE: ${{ matrix.language }}
+        DISPLAY: ":99"
+
+    - name: Upload PDF
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ matrix.language }}
+        path: build/ev-faq-${{ matrix.language }}.pdf
