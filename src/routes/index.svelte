@@ -59,16 +59,4 @@
         height: 220mm;
 		opacity: 0.5;
 	}
-
-	@media screen {
-		.side {
-			width: 307mm;
-            height: 220mm;
-			margin: 2em !important;
-		}
-		.background, .debug {
-			width: 307mm;
-            height: 220mm;
-		}
-	}
 </style>
