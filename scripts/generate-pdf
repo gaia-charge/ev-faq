@@ -6,6 +6,9 @@ PID=${!}
 # Generate the PDF
 electron-pdf \
     --landscape \
+    --pageSize '{ "height": 307000, "width": 220000 }' \
+    --marginsType 1 \
+    --outputWait 5000 \
     http://localhost:8000 \
     build/index.pdf
 
