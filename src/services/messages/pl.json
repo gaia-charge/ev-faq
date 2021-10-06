@@ -1,0 +1,78 @@
+{
+    "title": "Najczęściej zadawane pytania n.t. aut elektrycznych",
+    "subtitle": "Odpowiada Gaia Green Tech",
+    "range": {
+        "title": "Jaki jest zasięg auta elektrycznego?",
+        "lead": "Powyżej {percent}% nowych aut elektrycznych ma zasięg co najmniej {range}km",
+        "tick": "{percent}% aut ma zasięg {range}km"
+    },
+    "charge-frequency": {
+        "title": "Jak często muszę ładować auto?",
+        "lead": ""
+    },
+    "charge-duration": {
+        "title": "",
+        "lead": "",
+        "charging-point": "",
+        "power": "Moc",
+        "time-to-charge": "Czas ładowania",
+        "rate-of-charge": "Prędkość ładowania"
+    },
+    "cost": {
+        "title": "",
+        "lead": "",
+        "gasoline": "VW Golf benzyna",
+        "diesel": "VW Golf diesel",
+        "public-charging": "",
+        "home-charging": "",
+        "free-charging": "",
+        "consumption-per-100km": "Zużycie na 100km",
+        "cost-per-100km": "Koszt na 100km",
+        "annual-savings": "Roczne oszczędności"
+    },
+    "advantages": {
+        "title": "",
+        "lead": "",
+        "torque": {
+            "title": "",
+            "lead": ""
+        },
+        "ac": {
+            "title": "",
+            "lead": ""
+        },
+        "quiet": {
+            "title": "",
+            "lead": ""
+        },
+        "pollution": {
+            "title": "",
+            "lead": ""
+        },
+        "benefits": {
+            "title": "",
+            "lead": ""
+        }
+    },
+    "battery": {
+        "title": "",
+        "lead": "",
+        "lead2": "",
+        "lead3": "",
+        "lifespan": {
+            "car": "",
+            "home": "",
+            "recycle": ""
+        }
+    },
+    "charging-alternatives": {
+        "title": "",
+        "lead": "",
+        "lead2": "",
+        "lead3": ""
+    },
+    "contact": {
+        "title": "",
+        "lead": ""
+    }
+}
