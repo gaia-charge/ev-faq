@@ -21,13 +21,14 @@
 
 {#if !$isLoading}
 	<div class="side" id="side-a">
-		<img src="/side-a.svg" class="background" />
-		<!-- <img src="/side-a.png" class="debug" /> -->
+		<img src="/side-a.svg" class="background" alt="Background" />
 		<Page5 />
 		<Page6 />
 		<Page1 />
 	</div>
 	<div class="side" id="side-b">
+		<img src="/side-b.svg" class="background" alt="Background" />
+		<!-- <img src="/side-b.png" class="debug" /> -->
 		<Page2 />
 		<Page3 />
 		<Page4 />

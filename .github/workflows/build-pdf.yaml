@@ -1,4 +1,4 @@
-name: Building PDF
+name: Build PDF
 
 on: [push]
 
