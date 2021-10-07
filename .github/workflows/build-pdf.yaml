@@ -23,14 +23,27 @@ jobs:
         /usr/bin/Xvfb $DISPLAY -ac -screen 0 1920x1280x24 &
         sleep 1
         npm run pdf:build
-        ls -lha
-        ls -lha build
       env:
         VITE_LANGUAGE: ${{ matrix.language }}
         DISPLAY: ":99"
 
-    - name: Upload PDF
+    - name: Upload job artifact
       uses: actions/upload-artifact@v2
       with:
-        name: ${{ matrix.language }}
+        name: ev-faq
         path: build/ev-faq-${{ matrix.language }}.pdf
+
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Create GitHub release
+      if: startsWith(github.ref, 'refs/tags/')
+      uses: actions/create-release@v1
+      id: create_release
+      with:
+        draft: false
+        prerelease: false
+        release_name: ${{ github.ref }}
+        tag_name: ${{ github.ref }}
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
