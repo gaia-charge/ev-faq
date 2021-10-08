@@ -4,7 +4,7 @@
   "range": {
     "title": "What's the range of an EV?",
     "lead": "More than {percent}% of new EVs have a range of at least {range}km",
-    "tick": "{percent}% of cars has {range}km range"
+    "tick": "{percent}% of cars has {range}km of range"
   },
   "charge-frequency": {
     "title": "How often do I need to charge it then?",

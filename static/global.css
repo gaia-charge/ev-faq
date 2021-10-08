@@ -36,6 +36,11 @@ h1 {
     line-height: 1.15;
 }
 
+h3 {
+    font-size: 6mm;
+    line-height: 1.35;
+}
+
 p {
     margin: 0;
     padding: 0;
