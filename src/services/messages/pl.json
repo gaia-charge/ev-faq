@@ -8,11 +8,11 @@
     },
     "charge-frequency": {
         "title": "Jak często muszę ładować auto?",
-        "lead": ""
+        "lead": "Auto będzie wymagać ładowania średnio co dwa tygodnie"
     },
     "charge-duration": {
-        "title": "",
-        "lead": "",
+        "title": "Jak długo trwa ładowanie?",
+        "lead": "Zależy od modelu oraz mocy ładowarki ale poniżej możesz zobaczyć przykładowe czasy ładowania dla Hyundai IONIQ 5",
         "charging-point": "Ładowarka",
         "power": "Moc",
         "time-to-charge": "Czas ładowania",
@@ -20,8 +20,8 @@
         "percent-in-minutes": "{fromPercent}% do {toPercent}%<br />w {minutes} min"
     },
     "cost": {
-        "title": "",
-        "lead": "",
+        "title": "Ile kosztuje utrzymanie?",
+        "lead": "W porównaniu do aut spalinowych, auta elektryczne są o wiele tańsze w utrzymaniu",
         "gasoline": "VW Golf benzyna",
         "diesel": "VW Golf diesel",
         "public-charging": "VW ID.3 publiczne ładowarki",
@@ -32,34 +32,34 @@
         "annual-savings": "Roczne oszczędności"
     },
     "advantages": {
-        "title": "",
-        "lead": "",
+        "title": "Co potrafią tylko elektryki?",
+        "lead": "Auta elektryczne mają kilka cech których nie znajdziesz w autach spalinowych",
         "torque": {
             "title": "Natychmiastowe przyspieszenie",
-            "lead": ""
+            "lead": "Silnik elektryczny dostarcza przyspieszenie w mgnieniu oka, zawsze będąc pierwszym autem na światłach"
         },
         "ac": {
             "title": "Planowanie klimatyzacji",
-            "lead": ""
+            "lead": "Auta elektryczne pozwalają na działanie klimatyzacji w dowolnym momencie, pozwalając na zdalne ustawienie temperatury nawet za nim do niego wsiądziesz"
         },
         "quiet": {
             "title": "Niesamowicie cichy",
-            "lead": ""
+            "lead": "Poruszaj się bezdźwięcznie bez budzenia dzieci czy przeszkadzania sąsiadom. Nawet na autostradzie możesz rozmawiać bez podnoszenia głosu"
         },
         "pollution": {
             "title": "Brak zanieczyszczeń",
-            "lead": ""
+            "lead": "Punkt dla osób pro ekologicznych. Brak zanieczyszczeń z rury wydechowej. Nawet ładując z najbrudniejszych źródeł auta elektryczne nadal są czystsze niż spalinowe"
         },
         "benefits": {
-            "title": "",
-            "lead": ""
+            "title": "Dodatkowe korzyści",
+            "lead": "W niektórych krajach, auta elektryczne mogą parkować za darmo, używać bus pasy, wjeżdżać do centrum miast bez opłat oraz większość ładowarek w supermarketach oraz centrach handlowych znajduje się zaraz przy wejściu"
         }
     },
     "battery": {
-        "title": "",
-        "lead": "",
-        "lead2": "",
-        "lead3": "",
+        "title": "Jak wygląda żywotność baterii?",
+        "lead": "Większość producentów daje gwarancje <strong>{percent}% pojemności po {mileage}km</strong>",
+        "lead2": "oraz wg. badania przeprowadzonego przez Nissana, <strong>baterie przeżyją auto o 10-12 lat</strong>\n",
+        "lead3": "Po tym czasie, baterie mogą znaleźć drugie życie w przechowywaniu energii w domach i na końcu <strong>do {percent}% materiałów w baterii może być odzyskane</strong>",
         "lifespan": {
             "car": "<strong>{percent}%</strong> po {mileage}km",
             "home": "<strong>{years}</strong> lat po aucie",
@@ -67,10 +67,10 @@
         }
     },
     "charging-alternatives": {
-        "title": "",
-        "lead": "",
-        "lead2": "",
-        "lead3": ""
+        "title": "Posiadam tylko miejsce parkingowe lub parkuję na ulicy. Gdzie mogę ładować?",
+        "lead": "Przepisy zależą od kraju lecz zazwyczaj możesz zainstalować ładowarkę we wspólnym garażu jeśli posiada oddzielny licznik",
+        "lead2": "Musisz jednak ponieść pełen koszt instalacji lecz wiele producentów aut, dołącza ładowarkę jako prezent. <strong>Koszt ładowarki to ok. {price}€</strong> plus instalacja",
+        "lead3": "Jeśli nie posiadasz garażu, niektóre miasta oferują ładowanie na ulicy, lecz nawet bez tego, ładowanie używając publicznych ładowarek podczas codziennych sprawunków powinno wystarczyć"
     },
     "contact": {
         "title": "Skontaktuj się z nami!",
@@ -78,5 +78,6 @@
         "facebook": "GaiaGreenTechES",
         "instagram": "GaiaGreenTechESP",
         "twitter": "Gaia_Green_Tech"
-    }
+    },
+    "not-available": "n.d."
 }
