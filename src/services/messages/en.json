@@ -8,15 +8,16 @@
   },
   "charge-frequency": {
     "title": "How often do I need to charge it then?",
-    "lead": "On average, you would need to charge it about every {period}"
+    "lead": "On average, you would need to charge it about every 2 weeks"
   },
   "charge-duration": {
     "title": "How long does it take to charge?",
-    "lead": "This depends on a model of the car and the charger's output but here are example charging times for VW ID.3 Pro",
+    "lead": "This depends on a model of the car and the charger's output but here are example charging times for Hyundai IONIQ 5",
     "charging-point": "Charging point",
     "power": "Power",
     "time-to-charge": "Time to charge",
-    "rate-of-charge": "Rate of charge"
+    "rate-of-charge": "Rate of charge",
+    "percent-in-minutes": "{fromPercent}% to {toPercent}% in<br />{minutes}min"
   },
   "cost": {
     "title": "How much does it cost to run?",
@@ -30,6 +31,7 @@
     "cost-per-100km": "Cost per 100km",
     "annual-savings": "Annual savings"
   },
+  "not-available": "n/a",
   "advantages": {
     "title": "What are things only EV's can do?",
     "lead": "There are some technical advantages of EV's that simply can't be matched by petrol or diesel cars",

@@ -51,11 +51,7 @@
 		<h3>{$_("charge-frequency.title", { default: "How often do I need to charge it then?"})}</h3>
 		<div class="lead">
 			<p>
-				{$_("charge-frequency.lead", {
-				default:
-					"On average, you would need to charge it about every {period}",
-					values: { period: "2 weeks" }
-				})}
+				{$_("charge-frequency.lead", { default: "On average, you would need to charge it about every 2 weeks" })}
 				<sup>2)</sup>
 			</p>
 		</div>

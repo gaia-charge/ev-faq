@@ -28,7 +28,6 @@
 	</div>
 	<div class="side" id="side-b">
 		<img src="/side-b.svg" class="background" alt="Background" />
-		<!-- <img src="/side-b.png" class="debug" /> -->
 		<Page2 />
 		<Page3 />
 		<Page4 />

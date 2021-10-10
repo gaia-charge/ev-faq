@@ -13,19 +13,20 @@
     "charge-duration": {
         "title": "",
         "lead": "",
-        "charging-point": "",
+        "charging-point": "Ładowarka",
         "power": "Moc",
         "time-to-charge": "Czas ładowania",
-        "rate-of-charge": "Prędkość ładowania"
+        "rate-of-charge": "Prędkość ładowania",
+        "percent-in-minutes": "{fromPercent}% do {toPercent}%<br />w {minutes} min"
     },
     "cost": {
         "title": "",
         "lead": "",
         "gasoline": "VW Golf benzyna",
         "diesel": "VW Golf diesel",
-        "public-charging": "",
-        "home-charging": "",
-        "free-charging": "",
+        "public-charging": "VW ID.3 publiczne ładowarki",
+        "home-charging": "VW ID.3 domowa ładowarka",
+        "free-charging": "VW ID.3 darmowe ładowanie",
         "consumption-per-100km": "Zużycie na 100km",
         "cost-per-100km": "Koszt na 100km",
         "annual-savings": "Roczne oszczędności"
@@ -34,19 +35,19 @@
         "title": "",
         "lead": "",
         "torque": {
-            "title": "",
+            "title": "Natychmiastowe przyspieszenie",
             "lead": ""
         },
         "ac": {
-            "title": "",
+            "title": "Planowanie klimatyzacji",
             "lead": ""
         },
         "quiet": {
-            "title": "",
+            "title": "Niesamowicie cichy",
             "lead": ""
         },
         "pollution": {
-            "title": "",
+            "title": "Brak zanieczyszczeń",
             "lead": ""
         },
         "benefits": {
@@ -60,9 +61,9 @@
         "lead2": "",
         "lead3": "",
         "lifespan": {
-            "car": "",
-            "home": "",
-            "recycle": ""
+            "car": "<strong>{percent}%</strong> po {mileage}km",
+            "home": "<strong>{years}</strong> lat po aucie",
+            "recycle": "<strong>{percent}%</strong> odnawialne"
         }
     },
     "charging-alternatives": {
@@ -72,7 +73,10 @@
         "lead3": ""
     },
     "contact": {
-        "title": "",
-        "lead": ""
+        "title": "Skontaktuj się z nami!",
+        "lead": "Zobacz wszystkie przypisy i aktualną wersję tej ulotki pod adresem",
+        "facebook": "GaiaGreenTechES",
+        "instagram": "GaiaGreenTechESP",
+        "twitter": "Gaia_Green_Tech"
     }
 }
