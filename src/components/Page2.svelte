@@ -86,7 +86,7 @@
 	.tick-250 {
 		left: 17mm;
 		top: 41mm;
-		width: 27mm;
+		width: 30mm;
 	}
 	.tick-350 {
 		left: 53mm;
@@ -96,7 +96,7 @@
 	.tick-400 {
 		left: 72mm;
 		top: 49mm;
-		width: 26mm;
+		width: 30mm;
 	}
 	#charge-frequency h3 {
 		top: 90mm;

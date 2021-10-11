@@ -53,7 +53,7 @@
 		color: #8FC84E;
 		font-family: Inter;
 		font-weight: 800;
-    	font-size: 3.2mm;
+    	font-size: 3.1mm;
 	}
 	.advantage p {
     	color: #008B8C;

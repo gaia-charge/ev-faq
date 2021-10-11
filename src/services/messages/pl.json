@@ -1,8 +1,8 @@
 {
-    "title": "Najczęściej zadawane pytania n.t. aut elektrycznych",
+    "title": "Najczęściej zadawane pytania na temat \"elektryków\"",
     "subtitle": "Odpowiada Gaia Green Tech",
     "range": {
-        "title": "Jaki jest zasięg auta elektrycznego?",
+        "title": "Jaki jest zasięg elektryka?",
         "lead": "Powyżej {percent}% nowych aut elektrycznych ma zasięg co najmniej {range}km",
         "tick": "{percent}% aut ma zasięg {range}km"
     },
@@ -11,7 +11,7 @@
         "lead": "Auto będzie wymagać ładowania średnio co dwa tygodnie"
     },
     "charge-duration": {
-        "title": "Jak długo trwa ładowanie?",
+        "title": "Jak długo trwa ładowanie samochodu?",
         "lead": "Zależy od modelu oraz mocy ładowarki ale poniżej możesz zobaczyć przykładowe czasy ładowania dla Hyundai IONIQ 5",
         "charging-point": "Ładowarka",
         "power": "Moc",
@@ -20,7 +20,7 @@
         "percent-in-minutes": "{fromPercent}% do {toPercent}%<br />w {minutes} min"
     },
     "cost": {
-        "title": "Ile kosztuje utrzymanie?",
+        "title": "Ile kosztuje utrzymanie i konserwacja?",
         "lead": "W porównaniu do aut spalinowych, auta elektryczne są o wiele tańsze w utrzymaniu",
         "gasoline": "VW Golf benzyna",
         "diesel": "VW Golf diesel",
@@ -32,7 +32,7 @@
         "annual-savings": "Roczne oszczędności"
     },
     "advantages": {
-        "title": "Co potrafią tylko elektryki?",
+        "title": "Co potrafią tylko auta elektryczne?",
         "lead": "Auta elektryczne mają kilka cech których nie znajdziesz w autach spalinowych",
         "torque": {
             "title": "Natychmiastowe przyspieszenie",
@@ -73,7 +73,7 @@
         "lead3": "Jeśli nie posiadasz garażu, niektóre miasta oferują ładowanie na ulicy, lecz nawet bez tego, ładowanie używając publicznych ładowarek podczas codziennych sprawunków powinno wystarczyć"
     },
     "contact": {
-        "title": "Skontaktuj się z nami!",
+        "title": "Kontakt",
         "lead": "Zobacz wszystkie przypisy i aktualną wersję tej ulotki pod adresem",
         "facebook": "GaiaGreenTechES",
         "instagram": "GaiaGreenTechESP",

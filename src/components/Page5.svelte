@@ -48,7 +48,7 @@
 	h3 {
 		position: absolute;
 		left: 1.3cm;
-		font-size: 6mm;
+		font-size: 5.9mm;
 		line-height: 1.35;
 		width: 8.2cm;
 	}

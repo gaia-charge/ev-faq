@@ -136,7 +136,7 @@
 
 	#charge-duration th {
 		color: #EDF8FB;
-		font-size: 2.6mm;
+		font-size: 2.2mm;
 		font-weight: 800;
 		font-family: 'Inter';
 		height: 6mm;
@@ -170,6 +170,7 @@
 		position: absolute;
 		left: 110mm;
 		top: 137mm;
+		width: 8.8cm;
 	}
 
 	#cost th {

@@ -4,10 +4,10 @@
     "range": {
         "title": "¿Qué autonomía tiene un VE?",
         "lead": "Más del {percent}% de los nuevos EVs tienen una autonomía de al menos {range}km",
-        "tick": "{percent}% de los coches tiene {range}km de autonomía"
+        "tick": "{percent}% de los coches tiene {range}km"
     },
     "charge-frequency": {
-        "title": "Entonces, ¿con qué frecuencia necesito cargarlo?",
+        "title": "¿Con qué frecuencia necesito cargarlo?",
         "lead": "De media, necesitarás cargarlo cada 2 semanas"
     },
     "charge-duration": {
@@ -24,9 +24,9 @@
         "lead": "Comparado con coches de gasolina y diésel, los EVs son mucho más baratos de mover",
         "gasoline": "VW Golf gasolina",
         "diesel": "VW Golf diésel",
-        "public-charging": "VW ID.3 en punto de carga público",
+        "public-charging": "VW ID.3 carga pública",
         "home-charging": "VW ID.3 cargado en casa",
-        "free-charging": "VW ID.3 energía solar o puntos gratuitos",
+        "free-charging": "VW ID.3 energía gratuita",
         "consumption-per-100km": "Consumo cada 100km",
         "cost-per-100km": "Coste cada 100km",
         "annual-savings": "Ahorro anual"
@@ -43,7 +43,7 @@
             "lead": "Los EVs te permiten programar a distancia la calefacción o aire acondicionado para que tu coche siempre te espere a la temperatura que desees."
         },
         "quiet": {
-            "title": "Increíblemente silenciosos",
+            "title": "Increíblemente silencioso",
             "lead": "Los EVs no molestan a tus vecinos, no despiertan bebés e incluso puedes mantener una conversación a velocidades de autovía sin levantar la voz"
         },
         "pollution": {
@@ -67,7 +67,7 @@
         }
     },
     "charging-alternatives": {
-        "title": "Tengo un garaje comunitario o aparco en la calle. ¿Puedo cargar el coche igualmente?",
+        "title": "¿Puedo cargar el coche en un garaje comunitario o en la calle?",
         "lead": "La normativa depende del país pero normalmente puedes instalar un cargador doméstico en un garaje comunitario, siempre y cuando tenga un contador propio",
         "lead2": "El coste de la instalación corre de tu cuenta, pero muchos fabricantes incluyen un cargador de pared de regalo. <strong>El coste de un cargador doméstico es de alrededor de {price}€</strong> más instalación",
         "lead3": "Si no tienes garaje, algunas ciudades ofrecen carga en la calle, pero aún si ella, deberías poder cargar el coche lo suficiente usando cargadores públicos en tus recados diarios"
