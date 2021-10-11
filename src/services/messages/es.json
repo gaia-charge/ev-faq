@@ -1,0 +1,83 @@
+{
+    "title": "Preguntas frecuentes sobre vehículos eléctricos",
+    "subtitle": "Respondidas por Gaia Green Tech",
+    "range": {
+        "title": "¿Qué autonomía tiene un VE?",
+        "lead": "Más del {percent}% de los nuevos EVs tienen una autonomía de al menos {range}km",
+        "tick": "{percent}% de los coches tiene {range}km"
+    },
+    "charge-frequency": {
+        "title": "¿Con qué frecuencia necesito cargarlo?",
+        "lead": "De media, necesitarás cargarlo cada 2 semanas"
+    },
+    "charge-duration": {
+        "title": "¿Cuánto tarda en cargarse?",
+        "lead": "Esto depende del modelo de coche y la potencia del cargador pero aquí van unos ejemplos de tiempo de carga para el Hyundai IONIQ 5",
+        "charging-point": "Punto de carga",
+        "power": "Potencia",
+        "time-to-charge": "Tiempo de carga",
+        "rate-of-charge": "Ritmo de carga",
+        "percent-in-minutes": "{fromPercent}% a {toPercent}%<br />en {minutes} min"
+    },
+    "cost": {
+        "title": "¿Cuánto cuesta hacerlo rodar?",
+        "lead": "Comparado con coches de gasolina y diésel, los EVs son mucho más baratos de mover",
+        "gasoline": "VW Golf gasolina",
+        "diesel": "VW Golf diésel",
+        "public-charging": "VW ID.3 carga pública",
+        "home-charging": "VW ID.3 cargado en casa",
+        "free-charging": "VW ID.3 energía gratuita",
+        "consumption-per-100km": "Consumo cada 100km",
+        "cost-per-100km": "Coste cada 100km",
+        "annual-savings": "Ahorro anual"
+    },
+    "advantages": {
+        "title": "¿Qué cosas se pueden hacer solo con EVs?",
+        "lead": "Hay algunas ventajas técnicas de los EVs que simplemente no pueden igualar los coches de gasolina o diésel.",
+        "torque": {
+            "title": "Par instantáneo",
+            "lead": "El motor eléctrico proporciona la aceleración instantáneamente, poniéndote en cabeza en los semáforos"
+        },
+        "ac": {
+            "title": "Programar el A.A.",
+            "lead": "Los EVs te permiten programar a distancia la calefacción o aire acondicionado para que tu coche siempre te espere a la temperatura que desees."
+        },
+        "quiet": {
+            "title": "Increíblemente silencioso",
+            "lead": "Los EVs no molestan a tus vecinos, no despiertan bebés e incluso puedes mantener una conversación a velocidades de autovía sin levantar la voz"
+        },
+        "pollution": {
+            "title": "Cero contaminación",
+            "lead": "Si tienes conciencia ecológica, esto es para ti. Sin tubo de escape, sin emisiones. Aún contando con la contaminación de las fuentes de electricidad más sucias, los VEs salen ganando con respecto a coches gasolina/diésel"
+        },
+        "benefits": {
+            "title": "Ventajas adicionales",
+            "lead": "En algunos países/comunidades, los EVs tienen ventajas adicionales como aparcamiento gratuito, posibilidad de utilizar el carril bus, acceder a zonas de emisiones reguladas sin pagar, y el hecho de que muchos cargadores en supermercados y centros comerciales están situados muy cerca de la entrada"
+        }
+    },
+    "battery": {
+        "title": "¿Cuál es la vida útil de la batería?",
+        "lead": "Muchos fabricantes te aseguran el <strong>{percent}% de capacidad máxima tras {mileage}km</strong>",
+        "lead2": "y según un estudio de Nissan, <strong>las baterías aguantarán 10-12 años más que el propio vehículo</strong>",
+        "lead3": "Pasados esos años, las baterías se pueden utilizar como almacenamiento de energía en casas y después de eso hasta <strong>el {percent}% de los materiales se pueden reciclar</strong>",
+        "lifespan": {
+            "car": "<strong>{percent}%</strong> tras {mileage}km",
+            "home": "<strong>{years}</strong> años más fuera del coche",
+            "recycle": "<strong>{percent}%</strong> reciclable"
+        }
+    },
+    "charging-alternatives": {
+        "title": "¿Puedo cargar el coche en un garaje comunitario o en la calle?",
+        "lead": "La normativa depende del país pero normalmente puedes instalar un cargador doméstico en un garaje comunitario, siempre y cuando tenga un contador propio",
+        "lead2": "El coste de la instalación corre de tu cuenta, pero muchos fabricantes incluyen un cargador de pared de regalo. <strong>El coste de un cargador doméstico es de alrededor de {price}€</strong> más instalación",
+        "lead3": "Si no tienes garaje, algunas ciudades ofrecen carga en la calle, pero aún si ella, deberías poder cargar el coche lo suficiente usando cargadores públicos en tus recados diarios"
+    },
+    "contact": {
+        "title": "¡Contáctanos!",
+        "lead": "Puedes ver nuestras acotaciones y versiones actualizadas de este flyer en",
+        "facebook": "GaiaGreenTechES",
+        "instagram": "GaiaGreenTechESP",
+        "twitter": "Gaia_Green_Tech"
+    },
+    "not-available": "n/d"
+}
