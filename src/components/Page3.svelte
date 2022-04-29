@@ -1,5 +1,30 @@
 <script>
   import { _ } from "svelte-i18n";
+
+  // https://www.spritmonitor.de/es/detalle/1216638.html
+  const petrolConsumption = 6.65;
+  //https://www.spritmonitor.de/es/detalle/1137151.html
+  const dieselConsumption = 4.49;
+  // https://ev-database.org/car/1531/Volkswagen-ID3-Pro#efficiency
+  const electricityConsumption = 16.6;
+  // https://www.dieselogasolina.com/
+  const petrolPrice = 1.84;
+  const dieselPrice = 1.871;
+  // https://www.iberdrola.es/luz/plan-estable
+  const electricityPrice = 0.28;
+  // https://www.iberdrola.es/webclipb/iberdrola/smart-mobility/plan-vehiculo-electrico
+  const discountedElectricityPrice = 0.033;
+  const annualDistance = 100;
+
+  const petrolCost = petrolConsumption * petrolPrice;
+  const dieselCost = dieselConsumption * dieselPrice;
+  const electricityCost = electricityConsumption * electricityPrice;
+  const discountedElectricityCost = electricityConsumption * discountedElectricityPrice;
+
+  const annualPetrolCost = petrolCost * annualDistance;
+  const annualDieselCost = dieselCost * annualDistance;
+  const annualElectricityCost = electricityCost * annualDistance;
+  const annualDiscountedElectricityCost = discountedElectricityCost * annualDistance;
 </script>
 
 <div class="page">
@@ -85,27 +110,27 @@
 			</tr>
 			<tr style="height: 13.7mm">
 				<td class="header">{$_("cost.consumption-per-100km", { default: "Consumption per 100km" })}</td>
-				<td>6.28L</td>
-				<td>5.9L</td>
-				<td>16.6kW</td>
-				<td>16.6kW</td>
-				<td>16.6kW</td>
+				<td>{petrolConsumption}L</td>
+				<td>{dieselConsumption}L</td>
+				<td>{electricityConsumption}kW</td>
+				<td>{electricityConsumption}kW</td>
+				<td>{electricityConsumption}kW</td>
 			</tr>
 			<tr style="height: 10.7mm">
 				<td class="header">{$_("cost.cost-per-100km", { default: "Cost per 100km" })}</td>
-				<td>9.1&euro;<sup>5)</sup></td>
-				<td>7.86&euro;<sup>6)</sup></td>
-				<td>5.81&euro;<sup>7)</sup></td>
-				<td>0.58&euro;<sup>8)</sup></td>
+				<td>{petrolCost.toFixed(2)}&euro;<sup>5)</sup></td>
+				<td>{dieselCost.toFixed(2)}&euro;<sup>6)</sup></td>
+				<td>{electricityCost.toFixed(2)}&euro;<sup>7)</sup></td>
+				<td>{discountedElectricityCost.toFixed(2)}&euro;<sup>8)</sup></td>
 				<td>0&euro;</td>
 			</tr>
 			<tr style="height: 12mm">
 				<td class="header">{$_("cost.annual-savings", { default: "Annual savings" })} <sup>9)</sup></td>
 				<td>{$_("not-available", { default: "n/a" })}</td>
-				<td>+124&euro;</td>
-				<td>+329&euro;</td>
-				<td>+852&euro;</td>
-				<td>+910&euro;</td>
+				<td>+{Math.round(annualPetrolCost - annualDieselCost)}&euro;</td>
+				<td>+{Math.round(annualPetrolCost - annualElectricityCost)}&euro;</td>
+				<td>+{Math.round(annualPetrolCost - annualDiscountedElectricityCost)}&euro;</td>
+				<td>+{Math.round(annualPetrolCost)}&euro;</td>
 			</tr>
 		</table>
 	</div>
