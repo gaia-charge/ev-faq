@@ -102,7 +102,7 @@
 		<table>
 			<tr>
 				<th style="width: 20mm"></th>
-				<th style="width: 12mm">{$_("cost.gasoline", { default: "VW Golf gasoline" })} <sup>4)</sup></th>
+				<th style="width: 12mm">{$_("cost.gasoline", { default: "VW Golf gasoline" })}</th>
 				<th style="width: 12mm">{$_("cost.diesel", { default: "VW Golf diesel" })}</th>
 				<th style="width: 12mm">{$_("cost.public-charging", { default: "VW ID.3 public charging" })}</th>
 				<th style="width: 12mm">{$_("cost.home-charging", { default: "VW ID.3 home charging" })}</th>
@@ -118,14 +118,14 @@
 			</tr>
 			<tr style="height: 10.7mm">
 				<td class="header">{$_("cost.cost-per-100km", { default: "Cost per 100km" })}</td>
-				<td>{petrolCost.toFixed(2)}&euro;<sup>5)</sup></td>
-				<td>{dieselCost.toFixed(2)}&euro;<sup>6)</sup></td>
-				<td>{electricityCost.toFixed(2)}&euro;<sup>7)</sup></td>
-				<td>{discountedElectricityCost.toFixed(2)}&euro;<sup>8)</sup></td>
+				<td>{petrolCost.toFixed(2)}&euro;</td>
+				<td>{dieselCost.toFixed(2)}&euro;</td>
+				<td>{electricityCost.toFixed(2)}&euro;</td>
+				<td>{discountedElectricityCost.toFixed(2)}&euro;</td>
 				<td>0&euro;</td>
 			</tr>
 			<tr style="height: 12mm">
-				<td class="header">{$_("cost.annual-savings", { default: "Annual savings" })} <sup>9)</sup></td>
+				<td class="header">{$_("cost.annual-savings", { default: "Annual savings" })}</td>
 				<td>{$_("not-available", { default: "n/a" })}</td>
 				<td>+{Math.round(annualPetrolCost - annualDieselCost)}&euro;</td>
 				<td>+{Math.round(annualPetrolCost - annualElectricityCost)}&euro;</td>
