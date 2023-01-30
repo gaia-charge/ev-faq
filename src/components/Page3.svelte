@@ -8,12 +8,12 @@
   // https://ev-database.org/car/1531/Volkswagen-ID3-Pro#efficiency
   const electricityConsumption = 16.6;
   // https://www.dieselogasolina.com/
-  const petrolPrice = 1.84;
-  const dieselPrice = 1.871;
+  const petrolPrice = 1.671;
+  const dieselPrice = 1.796;
   // https://www.iberdrola.es/luz/plan-estable
-  const electricityPrice = 0.28;
+  const electricityPrice = 0.2;
   // https://www.iberdrola.es/webclipb/iberdrola/smart-mobility/plan-vehiculo-electrico
-  const discountedElectricityPrice = 0.033;
+  const discountedElectricityPrice = 0.031657;
   const annualDistance = 100;
 
   const petrolCost = petrolConsumption * petrolPrice;
